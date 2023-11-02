@@ -4,6 +4,8 @@
 
 package com.mycompany.lab1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ADMIN
@@ -11,6 +13,9 @@ package com.mycompany.lab1;
 public class LAB1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhap ten cua ban:");
+        String name = sc.nextLine();
+        System.out.println("Ten cua ban: "+name);
     }
 }
